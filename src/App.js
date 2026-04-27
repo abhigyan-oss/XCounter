@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 function App() {
-  const [count, setCount] = useState(1); // or 0 based on your current state
+  const [count, setCount] = useState(0);
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div>
       <h1>Counter App</h1>
 
       <p>Count: {count}</p>
